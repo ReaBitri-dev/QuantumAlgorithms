@@ -1,0 +1,341 @@
+Farhadipour et al., Symmetry, 2024.
+
+Abboudi et al., Nanomaterials, 2024.
+
+Scaccabarozzi et al., Progress in Photovoltaics, 2023.
+
+El Aouami et al., 2021.
+
+Petrosyan et al., 2025.
+
+Jafar et al., 2025.
+
+
+
+
+
+1️⃣ Build the baseline model
+
+Exact geometry from the paper
+
+Parameters defined:
+
+ℎ
+𝑝
+,
+𝑏
+𝑟
+,
+𝑠
+,
+𝑤
+𝑡
+,
+𝑁
+𝑙
+𝑎
+𝑦
+𝑒
+𝑟
+𝑠
+h
+p
+	​
+
+,b
+r
+	​
+
+,s,w
+t
+	​
+
+,N
+layers
+	​
+
+
+Generate baseline outputs:
+
+wavefunction plots
+
+absorption spectrum
+
+𝐽
+ ⁣
+−
+ ⁣
+𝑉
+J−V
+
+2️⃣ Validate the baseline
+
+Make sure trends look similar to the paper:
+
+energy levels reasonable
+
+absorption 300–1300 nm
+
+𝐽
+𝑠
+𝑐
+J
+sc
+	​
+
+ around same order
+
+(This step avoids garbage results.)
+
+3️⃣ Run single-parameter sweeps
+
+One at a time:
+
+QD height 
+ℎ
+𝑝
+h
+p
+	​
+
+
+QD radius 
+𝑏
+𝑟
+b
+r
+	​
+
+
+Aspect ratio 
+ℎ
+𝑝
+/
+𝑏
+𝑟
+h
+p
+	​
+
+/b
+r
+	​
+
+ with fixed 
+𝑠
+s
+
+Wetting layer 
+𝑤
+𝑡
+w
+t
+	​
+
+
+Each sweep → ~5–7 points.
+
+4️⃣ Generate figures for each sweep
+
+For every sweep produce:
+
+Energy vs parameter
+
+Absorption vs wavelength
+
+𝐽
+𝑠
+𝑐
+J
+sc
+	​
+
+ vs parameter
+
+Efficiency vs parameter
+
+These become Figures 6–9 style plots.
+
+5️⃣ Identify the best configuration
+
+Example outcome:
+
+best 
+ℎ
+𝑝
+h
+p
+	​
+
+
+best 
+𝑏
+𝑟
+b
+r
+	​
+
+
+best 
+𝑤
+𝑡
+w
+t
+	​
+
+
+6️⃣ Final comparison figure
+
+Show:
+
+Baseline vs Optimized design
+
+Plots:
+
+absorption comparison
+
+𝐽
+ ⁣
+−
+ ⁣
+𝑉
+J−V curve
+
+table of 
+𝐽
+𝑠
+𝑐
+,
+𝑉
+𝑜
+𝑐
+,
+𝐹
+𝐹
+,
+𝜂
+J
+sc
+	​
+
+,V
+oc
+	​
+
+,FF,η
+
+This becomes the main novelty result.
+
+
+
+
+
+The model changes we will study (one by one):
+
+1️⃣ QD height sweep
+
+ℎ
+𝑝
+=
+2
+→
+12
+ nm
+h
+p
+	​
+
+=2→12 nm
+
+Radius fixed.
+
+2️⃣ QD radius sweep
+
+𝑏
+𝑟
+=
+3
+→
+8
+ nm
+b
+r
+	​
+
+=3→8 nm
+
+Height fixed.
+
+3️⃣ Constant aspect-ratio scaling
+Increase 
+ℎ
+𝑝
+h
+p
+	​
+
+ and 
+𝑏
+𝑟
+b
+r
+	​
+
+ together while keeping
+
+ℎ
+𝑝
+/
+𝑏
+𝑟
+=
+constant
+h
+p
+	​
+
+/b
+r
+	​
+
+=constant
+
+4️⃣ Aspect-ratio study at fixed spacing
+Change
+
+ℎ
+𝑝
+/
+𝑏
+𝑟
+h
+p
+	​
+
+/b
+r
+	​
+
+
+while keeping barrier spacing 
+𝑠
+s constant.
+
+5️⃣ Wetting layer thickness sweep
+
+𝑤
+𝑡
+=
+2
+→
+8
+ nm
+w
+t
+	​
+
+=2→8 nm
+
+QD geometry fixed.
+
+These five geometry changes are the ones we will apply to the baseline model.
