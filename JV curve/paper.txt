@@ -1,0 +1,44 @@
+Results and Discussion
+
+Figure 1(a)–(d) shows that the photovoltaic response of the truncated-conical QD-IBSC is strongly controlled by QD geometry, especially QD height hp and aspect ratio hp/br [1].
+The baseline published model is a truncated-conical In0.5Ga0.5As/GaAs QD-IBSC analyzed using a three-dimensional semiconductor model combined with the Schrödinger equation, which provides a physically rigorous framework for geometry-dependent device analysis [1].
+The same study further establishes that truncated-conical quantum dots remain comparatively underexplored, despite their strong influence on the electrical and optical properties of QD-IBSCs [1].
+
+For the QD-height sweep, Fig. 1(a) and Fig. 1(b) indicate that increasing hp from 2 nm to about 10 nm improves the J-V response, increases Jsc, and enhances the overall power-conversion efficiency [1].
+This trend is consistent with the reported mechanism that larger QD size lowers the intermediate-band energy and improves the absorption of low-energy photons, thereby increasing carrier-generation rates [1,4].
+The same source reports that both Jsc and efficiency saturate for QD sizes larger than about 10 nm, showing that the benefit of geometric enlargement is not indefinite [1].
+Accordingly, the present results confirm that QD height is not merely a geometric descriptor, but an active tuning parameter for confinement strength, intermediate-band positioning, and sub-bandgap photon utilization [1,4].
+The slight softening observed at hp = 12 nm is also physically reasonable, since the onset of non-radiative recombination can progressively offset the gain produced by enhanced absorption [1,5,6].
+
+The aspect-ratio sweep reveals the opposite tendency [1].
+Figure 1(c) and Fig. 1(d) show that increasing hp/br progressively degrades the J-V characteristics and lowers both Jsc and efficiency [1].
+This trend is fully consistent with the published truncated-cone model, which reports optimum performance at lower aspect ratio and attributes the reduction at higher ratio to diminished wave-function coupling, reduced high-energy-photon absorption, increased non-radiative recombination, and weaker sub-band transitions [1].
+From a physical standpoint, increasing hp/br produces a more vertically elongated dot geometry that weakens electronic coupling and impairs carrier-transport pathways, resulting in a less favorable balance between confinement and collection [1,3].
+
+Taken together, Fig. 1(a)–(d) establishes a clear design rule for truncated-conical QD-IBSC optimization [1].
+Increasing hp is beneficial up to an optimum near 10 nm because it lowers confinement energy and improves intermediate-band-assisted absorption, whereas excessive elongation through a large hp/br ratio is detrimental because it reduces coupling efficiency and amplifies recombination-related losses [1,4–6].
+Therefore, the best-performing geometry is not simply the largest dot, but the dot geometry that balances intermediate-band lowering against transport degradation [1,3].
+In the present analysis, the most favorable operating window is centered around hp ≈ 10 nm together with relatively low aspect ratio, which agrees with the optimum regime reported for the baseline truncated-cone model [1].
+
+Novelty and Scientific Contribution
+
+The novelty of this work does not lie in proposing the truncated-conical QD-IBSC itself, since that architecture has already been introduced in the published baseline study [1].
+Instead, the present contribution is the transformation of that model into a geometry-performance design framework that explicitly separates the beneficial effect of QD-height increase from the detrimental effect of aspect-ratio enlargement [1].
+This distinction is important because it shows that size tuning and shape tuning are not equivalent optimization operations, even though both are geometric modifications [1,3].
+More specifically, the present study identifies an optimal QD-height region near 10 nm, demonstrates that increasing hp/br is harmful even when height increase alone is beneficial, and reformulates these competing trends into a practical engineering rule for geometry selection in truncated-conical QD-IBSCs [1].
+In this sense, the work provides a more design-oriented interpretation of the truncated-cone architecture and clarifies how confinement tuning, intermediate-band lowering, coupling loss, and recombination enhancement jointly determine Jsc and conversion efficiency [1,4–6].
+
+Q1-Style Contribution Statement
+
+This work extends the published truncated-conical QD-IBSC framework by establishing a geometry-sensitive performance map for QD height and aspect-ratio variation [1].
+The results demonstrate that height optimization and aspect-ratio optimization are not equivalent device-engineering operations: increasing hp improves Jsc and efficiency only up to an optimum threshold near 10 nm, whereas increasing hp/br systematically degrades performance because of weaker wave-function coupling, reduced photon-utilization efficiency, and enhanced recombination losses [1,4–6].
+Consequently, the present study provides a clearer and more practical criterion for selecting truncated-conical QD geometries in high-efficiency intermediate-band solar-cell design [1,3].
+
+References
+
+[1] N. Jafar, R. Bitri, Y. Yang, Y. Chen, M. Moghaddasi, J. Jiang, The mechanism between solar cell efficiency and geometry of truncated quantum dots: implications for practical application, Eur. Phys. J. Plus 140, 323 (2025).
+[2] N.M. Ali, Y.M. El-Batawy, Modeling of light absorption in self-assembled truncated conical quantum dot structures, Optical and Quantum Electronics 56(2), 220 (2024).
+[3] D. Eric et al., Structural optimization and engineering of InxGa1-xN quantum dot intermediate band solar cells with intrinsic GaN interlayers, Energy Advances (2024).
+[4] M. Kunrugsa, Optical absorption coefficient calculations of GaSb/GaAs quantum dots for intermediate band solar cell applications, Journal of Physics D: Applied Physics 54(4), 045103 (2020).
+[5] A.K. Al-Mousoi et al., Understanding Auger recombination in perovskite solar cells, Phys. Chem. Chem. Phys. 25(24), 16459–16468 (2023).
+[6] T. Nakamura et al., Reducing Shockley–Read–Hall recombination losses in the depletion region of a solar cell by using a wide-gap emitter layer, Journal of Applied Physics (2021).
